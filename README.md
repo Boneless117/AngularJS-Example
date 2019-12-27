@@ -16,9 +16,10 @@ NODE JS
 
 ### Installing
 
-Download / Clone project.
-Configure the server.js file with DB info
-Run with node server.js
+- Download / Clone project.
+- Configure the server.js file with DB info
+- Install dependencies via: `npm install`. This only needs to be done the first time the folder is initialized
+- Run with node server.js
 
 ## Built With
 
@@ -34,4 +35,5 @@ Run with node server.js
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
 
