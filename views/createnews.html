@@ -1,0 +1,34 @@
+<div ng-controller="createCtrl">
+
+    <h1 class='text-center'>Create News</h1>
+    <hr>
+
+    <p>Current time - {{time}} - {{date}}</span></p>
+
+    <form ng-submit="submit()">
+        <div class="form-group">
+            <label for='post-title'>Post Title</label>
+            <input class="form-control" id="post-title" type='text' name='post-title' ng-model='in.title' placeholder='Post title' required>
+        </div>
+
+        <div class="form-group">
+            <label for='post-author'>Author</label>
+            <input class="form-control" id="post-author" type='text' name='post-author' ng-model='in.author' placeholder='Author' required>
+        </div>
+
+
+        <div class="form-group">
+            <label for='post-content'>Content</label>
+            <textarea class="form-control" id="post-content" ng-model='in.content' rows='5' placeholder='Post content here...' required></textarea>
+        </div>
+
+        <div class='form-group'>
+            <label for='post-tags'>Tags</label>
+            <input class="form-control" id="post-tags" type='text' name='in.tags' ng-model='in.tags'>
+        </div>
+
+        <button class="btn btn-primary" type="submit">Post</button>
+
+    </form>
+
+</div>

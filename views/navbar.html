@@ -1,0 +1,11 @@
+<div ng-controller="menuCtrl">
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <h5 class="my-0 mr-md-auto">Reputable News Source</h5>
+        <nav class="my-2 my-md-0 mr-md-3">
+            <a class="p-2 text-dark mb-0" href="" ng-class="{selected: shownPageId == 0}" ng-click="showNews()">Current News</a>
+            <a class="p-2 text-dark mb-0" href="" ng-class="{selected: shownPageId == 1}" ng-click="showCreate()">Create News</a>
+            <a class="p-2 text-dark mb-0" href="" ng-class="{selected: shownPageId == 2}" ng-click="showAbout()">About</a>
+            <a class="p-2 text-dark mb-0" href="" ng-class="{selected: shownPageId == 3}" ng-click="showFAQ()">FAQ</a>
+        </nav>
+    </div>
+</div>
