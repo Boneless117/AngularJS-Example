@@ -19,7 +19,7 @@ NODE JS
 - Download / Clone project.
 - Configure the server.js file with DB info
 - Install dependencies via: `npm install`. This only needs to be done the first time the folder is initialized
-- Run with node server.js
+- Run with node `server.js`.
 
 ## Built With
 
